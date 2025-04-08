@@ -1,0 +1,11 @@
+### Health Check
+GET http://localhost:3000/health
+Content-Type: application/json
+
+### Shorten Url
+POST http://localhost:3000/shorten
+Content-Type: application/json
+
+{
+    "url": "https://miketeddyomondi.dev"
+}
