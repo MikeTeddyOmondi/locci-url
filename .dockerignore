@@ -1,0 +1,16 @@
+.vscode
+.justfile
+.gitignore
+.dockerignore
+.env
+.env.sample
+
+**/*.db
+README.md
+EXAMPLE.md
+Dockerfile
+compose.yml
+
+# Folders
+**/target
+**/web
